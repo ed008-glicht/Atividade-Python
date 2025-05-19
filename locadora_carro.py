@@ -1,0 +1,6 @@
+print("----Locadora de Carros----")
+print("Bem-vindo")
+dias_alugado= int(input("Por quantos dias o carro foi alugado? "))
+km_rodado=float(input("Quantos Km rodado no total? "))
+total= (dias_alugado*90)+(km_rodado*0.20)
+print(f"O seu total a pagar é de R$: {total}")
